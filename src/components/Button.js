@@ -1,14 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Button = ({ title, color, onClick }) => {
+const Button = ({ text, color, onClick }) => {
   return (
     <button
       onClick={onClick}
       style={{ backgroundColor: color }}
       className="btn"
     >
-      {title}
+      {text}
     </button>
   );
 };
